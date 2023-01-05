@@ -127,8 +127,9 @@ nav ul li button {
     font-size: 18px;
     line-height: 30px;
     color: #757575;
+    margin: 20px 0;
 }
-.banner-text .btn-border {
+.btn-border {
     width: 160px;
     height: 64px;
     border: 1px solid #fd6e0a;
@@ -237,4 +238,106 @@ main p {
 .programming-card p {
     font-size: 16px;
     line-height: 28px;
+}
+
+/************ Resume sec styles *************/
+.resume-sec {
+    margin: 0 150px 100px;
+}
+.resume-details {
+    margin-top: 100px;
+    display: flex;
+    column-gap: 60px;
+}
+.resume-text {
+    margin: 30px 0;
+}
+.resume-details h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #474747;
+}
+.resume-details h4 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #474747;
+}
+.resume-details h6 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+}
+.resume-details p {
+    font-size: 16px;
+    line-height: 28px;
+}
+.resume-details hr {
+    border: none;
+    border-top: 1px solid #d1d1d1;
+}
+.resume-sec button {
+    margin: 20px auto 0;
+}
+
+/*********** footer section *************/
+footer {
+    background-color: #fff8f3;
+    padding: 100px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+footer div {
+    width: 45%;
+}
+footer h1 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+}
+footer p {
+    margin: 20px 0 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+}
+footer .social-media-icon img {
+    width: 24px;
+    height: 24px;
+    margin-left: 25px;
+}
+footer form {
+    margin-top: 28px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    height: 64px;
+    border: none;
+    margin-bottom: 24px;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 18px 30px;
+}
+textarea {
+    height: 180px;
+    resize: none;
+}
+input[type="submit"],
+input[type="reset"] {
+    width: 150px;
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+}
+footer ::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
 }
